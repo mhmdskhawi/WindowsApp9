@@ -163,5 +163,6 @@ Public Class Form1
         ' Start the game loop on a separate thread
         Dim t As New Thread(AddressOf GameLoop)
         t.Start()
+
     End Sub
 End Class
